@@ -1,0 +1,75 @@
+.portfoliomainsec{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 5rem;
+
+    margin-bottom: 3rem;
+}
+/* Tablet View (768px and below) */
+@media (max-width: 768px) {
+    .portfoliomainsec {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 1rem 2rem;
+    }
+    .education{
+        width: 100% !important;
+    }.experience{
+        width: 100% !important;
+    }
+}
+
+/* Mobile View (480px and below) */
+@media (max-width: 480px) {
+    .portfoliomainsec {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+}
+
+.education{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background: linear-gradient(to right, rgba(245, 245, 245, .8), rgba(245, 245, 245, .8)), url(../assets/icons/back-ground.svg);
+    padding: 1rem 3rem;
+
+}
+.edhead{
+    font-size: 2.3rem;
+    color: #111;
+
+}
+.edpara,.edpar
+{
+    font-size: 1rem;
+    color:#555 ;
+    margin-bottom: .5rem;
+}.edpar{
+    color: #009cb1;
+}
+
+.experience{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background: linear-gradient(to right, rgba(245, 245, 245, .8), rgba(245, 245, 245, .8)), url(../assets/icons/back-ground.svg);
+    padding: 1rem 3rem;
+}
+.edspan{
+    /* color: o; */
+    font-weight: bold;
+}
