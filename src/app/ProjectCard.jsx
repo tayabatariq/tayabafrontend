@@ -1,5 +1,7 @@
 import React from "react";
-import "./ProjectCard.css";
+// import "./ProjectCard.css";
+import "./projectcard.css"; // ✅ exact match
+
 
 const ProjectCard = ({ project }) => {
   return (

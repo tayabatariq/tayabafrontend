@@ -1,6 +1,8 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
-import './projectcard.css'
+// import './projectcard.css'
+import "./projectcard.css"; // ✅ exact match
+
 import miranda from '../assets/images/miranda.png'
 import Brandbeet from '../assets/images/Brandbeet.png'
 import caseconvertor from '../assets/images/caseconvertor.png'
