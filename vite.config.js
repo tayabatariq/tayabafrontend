@@ -7,6 +7,7 @@ export default defineConfig({
   base: '/portfolio/',
   assets: ['**/*.PNG', '**/*.jpg', '**/*.jpeg'],
   plugins: [react(), svgr()],
+  base:'/',
   server: {
     port: 3000,
   }
