@@ -8,13 +8,15 @@ import Brandbeet from '../assets/images/Brandbeet.png'
 import caseconvertor from '../assets/images/caseconvertor.png'
 import edtextain from '../assets/images/edtextain.png'
 import optimum from '../assets/images/optimum.png';
+import taskamanger from '../assets/images/taskamanger.png'
+import ecoomerce from '../assets/images/ecoomerce.png'
 
 const projectData1 = {
-  image: miranda,
-  name: "My Awesome Project",
-  description: "This is a cool project built using React.",
-  github: "https://github.com/example",
-  live: "https://example.com",
+  image: taskamanger,
+  name: "TaskBoard – Role-Based Task Management App",
+  description: "TaskBoard is a full-featured task management web application built using React (Vite) and designed to support role-based user access. The app allows an Admin to create and assign tasks to specific users, while Users can view and manage the tasks assigned to them.This project showcases real-world application architecture with role segregation, responsive UI, and effective state management. It’s ideal for teams to streamline task delegation and individual productivity.",
+  github: "https://github.com/tayabatariq/taskmanager",
+  live: "https://taskmanager-navy-ten.vercel.app/",
 };
 
 const projectData2 = {
@@ -46,9 +48,9 @@ const projectData5 = {
   live: "https://tayabatariq.github.io/http-teqtronics.com-/",
 };
 const projectData6 = {
-  image: edtextain,
-  name: "My Awesome Project",
-  description: "This is a cool project built using React.",
+  image: ecoomerce,
+  name: "StyleCart – E-commerce Clothing Store",
+  description: "StyleCart is a modern eCommerce web application designed for a clothing brand. Built using React (Vite), this project offers a seamless shopping experience with a clean, responsive user interface and smooth product browsing.The application features a dynamic product catalog, shopping cart functionality, and a user-friendly layout suitable for both desktop and mobile users. It simulates a real-world shopping experience, making it a valuable addition to any developer’s portfolio..",
   github: "https://github.com/example",
   live: "https://example.com",
 };
