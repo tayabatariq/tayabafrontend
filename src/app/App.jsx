@@ -181,6 +181,17 @@ const [email, setEmail] = useState("")
 
 	};
 
+
+	const API_BASE_URL = "https://your-backend-production.up.railway.app";
+
+// Example API call
+axios.post(`${API_BASE_URL}/api/verify-otp`, { otp })
+  .then(response => {
+    console.log("Success:", response.data);
+  })
+  .catch(error => {
+    console.error("Error:", error);
+  });
 	return (
 
 		<>
