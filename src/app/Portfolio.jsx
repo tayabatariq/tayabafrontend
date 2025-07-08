@@ -6,9 +6,9 @@ import  './portfolio.css'
 const Portfolio = () => {
   return (
     <div id='portfolio' className='portfoliomainsec'>
+        <Experience/>
 
         <Education/>
-        <Experience/>
     </div>
   )
 }

@@ -93,3 +93,9 @@
     background-color: #046572;
   }
   
+  .project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}

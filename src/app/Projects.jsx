@@ -6,6 +6,7 @@ import furniture from '../assets/images/furniture.png'
 import brandbeet from '../assets/images/Brandbeet.png'
 import miranda from '../assets/images/miranda.png'
 import Project from "./Project";
+import skillbarter from '../assets/images/SKILLBARTER.png'
 
 
 const images = [
@@ -18,7 +19,7 @@ brandbeet,
 Caseconvertor,
 furniture,
 miranda,
-brandbeet,
+skillbarter,
 
 
 

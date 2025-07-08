@@ -9,12 +9,12 @@ import caseconvertor from '../assets/images/caseconvertor.png'
 import edtextain from '../assets/images/edtextain.png'
 import optimum from '../assets/images/optimum.png';
 import taskamanger from '../assets/images/taskamanger.png'
+import skillbarter from '../assets/images/SKILLBARTER.png'
 import ecoomerce from '../assets/images/ecoomerce.png'
-
 const projectData1 = {
   image: taskamanger,
   name: "TaskBoard – Role-Based Task Management App",
-  description: "TaskBoard is a full-featured task management web application built using React (Vite) and designed to support role-based user access. The app allows an Admin to create and assign tasks to specific users, while Users can view and manage the tasks assigned to them.This project showcases real-world application architecture with role segregation, responsive UI, and effective state management. It’s ideal for teams to streamline task delegation and individual productivity.",
+  description: "A full-featured task management system built with React (Vite). Includes role-based access where Admins assign tasks and Users manage them. Features responsive UI and clean state handling.",
   github: "https://github.com/tayabatariq/taskmanager",
   live: "https://taskmanager-navy-ten.vercel.app/",
 };
@@ -22,45 +22,51 @@ const projectData1 = {
 const projectData2 = {
   image: Brandbeet,
   name: "BrandCloneX",
-  description: "I have developed a **BrandBeet website clone**, incorporating **GSAP (GreenSock Animation Platform)** and **Locomotive Scroll** to achieve seamless animations and smooth scrolling effects. This project focuses on delivering an engaging and interactive user experience by utilizing modern web development techniques. GSAP enables high-performance animations, while Locomotive Scroll enhances smooth scrolling and parallax effects, ensuring a visually appealing interface. The objective of this project was to refine my front-end development skills by implementing advanced animation libraries. I am now deploying this project on **GitHub** to showcase my work and contribute to the developer community.",
+  description: "A professional clone of BrandBeet using GSAP animations and Locomotive Scroll. It delivers smooth transitions, parallax scrolling, and an engaging user interface with modern frontend tools.",
   github: "https://github.com/tayabatariq/Brandbeet",
   live: "https://tayabatariq.github.io/Brandbeet/",
 };
+
 const projectData3 = {
   image: caseconvertor,
   name: "Smart Text Converter",
-  description: "I have developed a **Case Converter App** using **React.js**, enabling users to perform various text transformations seamlessly. This application allows users to convert text to **uppercase, lowercase, capitalize**, and more, enhancing text formatting efficiency. Built with **React hooks (useState)**, it ensures real-time updates and a smooth user experience. Additionally, the app can be extended with features like **copy to clipboard, removing extra spaces, and word/character count**. This project showcases my front-end development skills and my ability to implement interactive user interfaces. I am now adding it to my **GitHub repository** to share my work with the developer community.",
+  description: "A React app to transform text to uppercase, lowercase, capitalize, and more. Features real-time output, clipboard copy, and extra space remover. Built with React hooks and clean UX.",
   github: "https://github.com/tayabatariq/reactCounterApp",
   live: "https://github.com/tayabatariq/reactCounterApp",
 };
+
 const projectData4 = {
   image: edtextain,
-  name: "EdTextain | Where Education Meets Technology",
-  description: "I have developed a professional landing page for EdTextain, a platform designed to enhance user engagement through interactive and educational content. This website is built with modern web technologies, ensuring a visually appealing, responsive, and smooth user experience. The design incorporates clean UI elements, intuitive navigation, and optimized performance to deliver a seamless interface. This project was created for a client, who highly appreciated the final product for its design, functionality, and performance. The site is now live at EdTextain Landing Page, reflecting a perfect blend of creativity and technical expertise." ,
+  name: "EdTextain | Educational Landing Page",
+  description: "Developed a responsive landing page for an ed-tech brand. Highlights include smooth layout, intuitive navigation, and clean visuals. Built with HTML, CSS, and modern frontend practices.",
   github: "https://github.com/tayabatariq/edtextainlanding",
   live: "https://edtextainlanding.vercel.app/",
 };
+
 const projectData5 = {
   image: optimum,
-  name: "TeqTronics – Innovating the Future of Technology",
-  description: "I am currently developing a professional **website for The teqtronics**, a project assigned to me during my internship. This website is designed to reflect the company's expertise in technology and innovation, featuring a **modern, responsive, and user-friendly interface**. Utilizing the latest **web development technologies**, I am ensuring a seamless user experience with optimized performance, intuitive navigation, and a visually appealing design. This project is an excellent opportunity to apply my skills in a real-world scenario while contributing to the company's digital presence. Once completed, the website will serve as a dynamic platform, showcasing **The teqtronics ** services and expertise." ,
+  name: "TeqTronics – Tech Company Website",
+  description: "Designed a sleek and modern company site for TeqTronics. Focused on responsiveness, branding, and clear UI/UX. Developed during internship to reflect real-world company presence.",
   github: "https://github.com/tayabatariq/http-teqtronics.com-",
   live: "https://tayabatariq.github.io/http-teqtronics.com-/",
 };
+
 const projectData6 = {
   image: ecoomerce,
   name: "StyleCart – E-commerce Clothing Store",
-  description: "StyleCart is a modern eCommerce web application designed for a clothing brand. Built using React (Vite), this project offers a seamless shopping experience with a clean, responsive user interface and smooth product browsing.The application features a dynamic product catalog, shopping cart functionality, and a user-friendly layout suitable for both desktop and mobile users. It simulates a real-world shopping experience, making it a valuable addition to any developer’s portfolio..",
+  description: "A modern shopping web app built with React (Vite). Includes product listing, responsive design, and cart simulation. Optimized for both mobile and desktop shopping experience.",
   github: "https://github.com/example",
   live: "https://example.com",
 };
+
 const projectData7 = {
-  image: Brandbeet,
-  name: "My Awesome Project",
-  description: "This is a cool project built using React.",
-  github: "https://github.com/example",
-  live: "https://example.com",
+  image: skillbarter,
+  name: "SkillBarter – Learn & Teach Skills",
+  description: "A full-stack MERN web application designed for skill exchange. Users can sign up, list the skills they have, search for others to learn from, and initiate two-way learning. Features include dynamic user profiles, JWT authentication, OTP verification, messaging, and AI chatbot integration.",
+  github: "https://github.com/tayabatariq/skillbarterfrontend",
+  live: "skillbarter-beta.vercel.app",
 };
+
 const Project = () => {
   return (
 
@@ -73,6 +79,8 @@ const Project = () => {
 <ProjectCard project={projectData4}/>
 <ProjectCard project={projectData5}/>
 <ProjectCard project={projectData6}/>
+<ProjectCard project={projectData7}/>
+
 </div>
 
 </>  )
